@@ -1,4 +1,3 @@
-
 <?php
 
 class Person {
@@ -24,7 +23,7 @@ class Person {
 		$today = new Datetime(date('Y-m-d'));
 		$age = $today->diff($dob);
 		
-		//Return Age in Years
+		//Return Age in Years ...
 		return $age->y;
 	}
 }
